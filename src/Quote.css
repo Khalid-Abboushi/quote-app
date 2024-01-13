@@ -1,0 +1,46 @@
+body {
+    background-color: #92411f;
+    justify-items: center;
+}
+
+#quote-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.quote-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card {
+    width: 800px;
+    height: 350px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5%;
+    color: #92411f
+}
+
+.btn {
+    transition: background-color 0.3s ease;
+    padding-top: 0px;
+
+    font-weight: bold;
+    font-size: larger;
+}
+
+.btn:hover {
+    background-color: #ff59006c;
+    color: #fff;
+
+}
